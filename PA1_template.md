@@ -39,7 +39,7 @@ hist(StepPerDay$x,
      col = "salmon")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png)
 
 ### 2. The mean and median total number of steps taken per day
 
@@ -73,7 +73,7 @@ plot(StepPerInterval$steps ~ StepPerInterval$interval,
      type = "l")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png)
 
 ### 2. The interval with maximum steps
 
@@ -144,7 +144,7 @@ hist(impSPD$x,
      col = "lightblue")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png)
 
 The mean and median of steps per day are now recalculated:
 
@@ -185,4 +185,4 @@ xyplot(steps ~ interval | daytype, data = wimpdat,
        type = "l", col.line = "violet", layout = c(1,2))
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
+![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png)
